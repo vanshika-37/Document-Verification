@@ -5,8 +5,8 @@ It is an application to encrypt and decrypt data.
 
 ### Signup and Login:
 
-<img src="assets/images/login.jpeg"  width="150" height="400">
-<img src="assets/images/signup.jpeg"  width="600" height="400">
+<img src="assets/images/login.jpeg"  width="200" height="375">
+<img src="assets/images/signup.jpeg"  width="200" height="375">
 
 
 ### Dashboard:
@@ -23,12 +23,12 @@ Encrypts the entered data using aes encryption algorithm.
 Decrypts the entered data using aes decryption algorithm.
 
 
-<img src="assets/images/dashboard.jpeg"  width="600" height="400">
+<img src="assets/images/dashboard.jpeg"  width="200" height="375">
 
 ### My Files:
 Select and upload any file from your device to the firebase database. 
 
-<img src="assets/images/myfiles.jpeg"  width="600" height="400">
+<img src="assets/images/myfiles.jpeg"  width="200" height="375">
 
 *The user can implement the full functionality of the app upon successful login.*
 
