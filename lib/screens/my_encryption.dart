@@ -22,22 +22,8 @@ class MyEncryptionDecryption {
   }
 
   // For Fernet Encryption/Decryption
-  static final keyFernet =
-  encrypt.Key.fromUtf8('TechWithVPIsBestTechWithVPIsBest');
-  // if you need to use the ttl feature, you'll need to use APIs in the algorithm itself
-  static final fernet = encrypt.Fernet(keyFernet);
-  static final encrypterFernet = encrypt.Encrypter(fernet);
-
-  static encryptFernet(text) {
-    final encrypted = encrypterFernet.encrypt(text);
-
-    print(fernet.extractTimestamp(encrypted.bytes)); // unix timestamp
-    return encrypted;
-  }
-
-  static decryptFernet(text) {
-    return encrypterFernet.decrypt(text);
-  }
+ 
+ 
 
   // For Salsa20 Encryption/Decryption
   static final keySalsa20 = encrypt.Key.fromLength(32);
